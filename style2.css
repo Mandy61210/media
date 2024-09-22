@@ -1,7 +1,58 @@
-p {
-  background-color: aqua;
-  color: antiquewhite;
-  width: 100px;
-  height: 100px;
-  font-size: 12345678910;
-}
+body { 
+  font-family:"Arial",sans-serif;
+  background-color: aquamarine;
+  color: beige;
+  }
+
+  h1 {
+    color: aqua;
+ }
+
+ a {
+  color: salmon;
+  text-decoration: none;
+  }
+
+  a :hover  {
+    color: sandybrown;
+  }
+
+  ul>li { 
+    font-weight: bold;
+  }
+
+  h1+p { 
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  ul li :hover  {
+    color: floralwhite;
+   }
+
+ul li :nth-child(3) {
+  background-color: ghostwhite;
+ }
+
+p :not(first-of-type) {
+  text-decoration: underline;
+ }
+
+ul li::before {
+ content: "";
+ }
+
+
+a ::after {
+  content: "*";
+ }
+
+ p ::first-letter {
+  font-size: 200%;
+  color: #ff7b72;
+  }
+
+
+
+
